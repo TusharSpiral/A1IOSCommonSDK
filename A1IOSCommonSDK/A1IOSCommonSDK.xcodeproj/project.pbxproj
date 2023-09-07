@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F73912B1FF8E648FD646EB0 /* Pods_A1IOSCommonSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DD0DFC7401EB6AA8790C20A /* Pods_A1IOSCommonSDK.framework */; };
 		BDEB05672AAA609700D62E1F /* A1IOSCommonSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = BDEB05662AAA609700D62E1F /* A1IOSCommonSDK.docc */; };
 		BDEB05682AAA609700D62E1F /* A1IOSCommonSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BDEB05652AAA609700D62E1F /* A1IOSCommonSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDEB056F2AAA60B700D62E1F /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB056E2AAA60B600D62E1F /* Validator.swift */; };
 		BDEB05722AAA60C300D62E1F /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEB05712AAA60C300D62E1F /* AppIntents.framework */; };
+		BDEB05752AAA627400D62E1F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BDEB05742AAA627400D62E1F /* Alamofire */; };
+		BDEB05792AAA62D600D62E1F /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB05762AAA62D600D62E1F /* Event.swift */; };
+		BDEB057A2AAA62D700D62E1F /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB05772AAA62D600D62E1F /* Localization.swift */; };
+		BDEB057B2AAA62D700D62E1F /* Purchasely.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEB05782AAA62D600D62E1F /* Purchasely.swift */; };
+		BDEB057E2AAA631500D62E1F /* YandexMobileMetrica in Frameworks */ = {isa = PBXBuildFile; productRef = BDEB057D2AAA631500D62E1F /* YandexMobileMetrica */; };
+		BDEB05802AAA631500D62E1F /* YandexMobileMetricaCrashes in Frameworks */ = {isa = PBXBuildFile; productRef = BDEB057F2AAA631500D62E1F /* YandexMobileMetricaCrashes */; };
+		BDEB05832AAA669400D62E1F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDEB05852AAA669400D62E1F /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54D6A2C28414FF86F7E8DF6C /* Pods-A1IOSCommonSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A1IOSCommonSDK.debug.xcconfig"; path = "Target Support Files/Pods-A1IOSCommonSDK/Pods-A1IOSCommonSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		9DD0DFC7401EB6AA8790C20A /* Pods_A1IOSCommonSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A1IOSCommonSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEB05622AAA609700D62E1F /* A1IOSCommonSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = A1IOSCommonSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEB05652AAA609700D62E1F /* A1IOSCommonSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = A1IOSCommonSDK.h; sourceTree = "<group>"; };
 		BDEB05662AAA609700D62E1F /* A1IOSCommonSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = A1IOSCommonSDK.docc; sourceTree = "<group>"; };
 		BDEB056E2AAA60B600D62E1F /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		BDEB05712AAA60C300D62E1F /* AppIntents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppIntents.framework; path = System/Library/Frameworks/AppIntents.framework; sourceTree = SDKROOT; };
+		BDEB05762AAA62D600D62E1F /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		BDEB05772AAA62D600D62E1F /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		BDEB05782AAA62D600D62E1F /* Purchasely.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchasely.swift; sourceTree = "<group>"; };
+		BDEB05842AAA669400D62E1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDEB05862AAA669500D62E1F /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDEB05872AAA669600D62E1F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BDEB05882AAA669700D62E1F /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BDEB05892AAA669800D62E1F /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BDEB058A2AAA669900D62E1F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BDEB058B2AAA669A00D62E1F /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BDEB058C2AAA669C00D62E1F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E7568AD1A3CD45161B669F24 /* Pods-A1IOSCommonSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A1IOSCommonSDK.release.xcconfig"; path = "Target Support Files/Pods-A1IOSCommonSDK/Pods-A1IOSCommonSDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,19 +48,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDEB057E2AAA631500D62E1F /* YandexMobileMetrica in Frameworks */,
+				BDEB05802AAA631500D62E1F /* YandexMobileMetricaCrashes in Frameworks */,
 				BDEB05722AAA60C300D62E1F /* AppIntents.framework in Frameworks */,
+				BDEB05752AAA627400D62E1F /* Alamofire in Frameworks */,
+				5F73912B1FF8E648FD646EB0 /* Pods_A1IOSCommonSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B46D1BF4AECC9F9599F6EB34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54D6A2C28414FF86F7E8DF6C /* Pods-A1IOSCommonSDK.debug.xcconfig */,
+				E7568AD1A3CD45161B669F24 /* Pods-A1IOSCommonSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BDEB05582AAA609700D62E1F = {
 			isa = PBXGroup;
 			children = (
 				BDEB05642AAA609700D62E1F /* A1IOSCommonSDK */,
 				BDEB05632AAA609700D62E1F /* Products */,
 				BDEB05702AAA60C200D62E1F /* Frameworks */,
+				B46D1BF4AECC9F9599F6EB34 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,7 +90,11 @@
 			isa = PBXGroup;
 			children = (
 				BDEB05652AAA609700D62E1F /* A1IOSCommonSDK.h */,
+				BDEB05762AAA62D600D62E1F /* Event.swift */,
+				BDEB05772AAA62D600D62E1F /* Localization.swift */,
+				BDEB05782AAA62D600D62E1F /* Purchasely.swift */,
 				BDEB056E2AAA60B600D62E1F /* Validator.swift */,
+				BDEB05852AAA669400D62E1F /* Localizable.strings */,
 				BDEB05662AAA609700D62E1F /* A1IOSCommonSDK.docc */,
 			);
 			path = A1IOSCommonSDK;
@@ -64,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				BDEB05712AAA60C300D62E1F /* AppIntents.framework */,
+				9DD0DFC7401EB6AA8790C20A /* Pods_A1IOSCommonSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -86,6 +127,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDEB056B2AAA609700D62E1F /* Build configuration list for PBXNativeTarget "A1IOSCommonSDK" */;
 			buildPhases = (
+				30FF028974D322CAEB46A5FD /* [CP] Check Pods Manifest.lock */,
 				BDEB055D2AAA609700D62E1F /* Headers */,
 				BDEB055E2AAA609700D62E1F /* Sources */,
 				BDEB055F2AAA609700D62E1F /* Frameworks */,
@@ -96,6 +138,11 @@
 			dependencies = (
 			);
 			name = A1IOSCommonSDK;
+			packageProductDependencies = (
+				BDEB05742AAA627400D62E1F /* Alamofire */,
+				BDEB057D2AAA631500D62E1F /* YandexMobileMetrica */,
+				BDEB057F2AAA631500D62E1F /* YandexMobileMetricaCrashes */,
+			);
 			productName = A1IOSCommonSDK;
 			productReference = BDEB05622AAA609700D62E1F /* A1IOSCommonSDK.framework */;
 			productType = "com.apple.product-type.framework";
@@ -121,8 +168,19 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
+				"zh-HK",
+				"zh-Hans",
+				"zh-Hant",
+				fr,
+				de,
+				"es-419",
 			);
 			mainGroup = BDEB05582AAA609700D62E1F;
+			packageReferences = (
+				BDEB05732AAA627400D62E1F /* XCRemoteSwiftPackageReference "Alamofire" */,
+				BDEB057C2AAA631500D62E1F /* XCRemoteSwiftPackageReference "metrica-sdk-ios" */,
+			);
 			productRefGroup = BDEB05632AAA609700D62E1F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,22 +195,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDEB05832AAA669400D62E1F /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30FF028974D322CAEB46A5FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-A1IOSCommonSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BDEB055E2AAA609700D62E1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDEB057B2AAA62D700D62E1F /* Purchasely.swift in Sources */,
 				BDEB056F2AAA60B700D62E1F /* Validator.swift in Sources */,
+				BDEB05792AAA62D600D62E1F /* Event.swift in Sources */,
+				BDEB057A2AAA62D700D62E1F /* Localization.swift in Sources */,
 				BDEB05672AAA609700D62E1F /* A1IOSCommonSDK.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDEB05852AAA669400D62E1F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDEB05842AAA669400D62E1F /* en */,
+				BDEB05862AAA669500D62E1F /* ar */,
+				BDEB05872AAA669600D62E1F /* zh-Hans */,
+				BDEB05882AAA669700D62E1F /* zh-HK */,
+				BDEB05892AAA669800D62E1F /* zh-Hant */,
+				BDEB058A2AAA669900D62E1F /* fr */,
+				BDEB058B2AAA669A00D62E1F /* es-419 */,
+				BDEB058C2AAA669C00D62E1F /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BDEB05692AAA609700D62E1F /* Debug */ = {
@@ -277,6 +382,7 @@
 		};
 		BDEB056C2AAA609700D62E1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D6A2C28414FF86F7E8DF6C /* Pods-A1IOSCommonSDK.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -309,6 +415,7 @@
 		};
 		BDEB056D2AAA609700D62E1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7568AD1A3CD45161B669F24 /* Pods-A1IOSCommonSDK.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -361,6 +468,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BDEB05732AAA627400D62E1F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		BDEB057C2AAA631500D62E1F /* XCRemoteSwiftPackageReference "metrica-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yandexmobile/metrica-sdk-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BDEB05742AAA627400D62E1F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDEB05732AAA627400D62E1F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		BDEB057D2AAA631500D62E1F /* YandexMobileMetrica */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDEB057C2AAA631500D62E1F /* XCRemoteSwiftPackageReference "metrica-sdk-ios" */;
+			productName = YandexMobileMetrica;
+		};
+		BDEB057F2AAA631500D62E1F /* YandexMobileMetricaCrashes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDEB057C2AAA631500D62E1F /* XCRemoteSwiftPackageReference "metrica-sdk-ios" */;
+			productName = YandexMobileMetricaCrashes;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BDEB05592AAA609700D62E1F /* Project object */;
 }

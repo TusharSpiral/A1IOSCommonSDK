@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Alamofire
 
 public struct Validator {
     public static func validEmail(_ email: String) -> Bool {
@@ -18,6 +19,11 @@ public struct Validator {
         print("Hello pretty lady. How are you doing????")
     }
     
-   
+    public static func isReachablea() -> Bool {
+        guard (NetworkReachabilityManager()?.isReachable)! else {
+            return false
+        }
+        return true
+    }
 }
 
